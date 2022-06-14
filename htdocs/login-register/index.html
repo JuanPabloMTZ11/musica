@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <style>
+    button{
+        width: 180px;
+        color: #000;
+        font-size: 12px;
+        padding: 12px 0;
+        background: #fff;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        margin-top:30px ;
+    }  
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-image: url(imagenes/fondoprincipal.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .row{
+        display: flex;
+        height: 88%;
+        align-items: center;
+    }
+    .col{
+        flex-basis: 50%;
+        color:#fff;
+    }
+    .h1{
+        color:#fff;
+        font-size: 100px;
+    }
+    .p{
+        color: #fff;
+        font-size: 11%;
+        line-height: 15px;
+    }
+    .card{
+        width: 200px;
+        height: 230px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.8s;
+    }
+    .card1{
+        background-image: url(imagenes/pic-1.png);
+    }
+    .card2{
+        background-image: url(imagenes/pic-2.png);
+    }
+    .card3{
+        background-image: url(imagenes/pic-3.png);
+    }
+    .card4{
+        background-image: url(imagenes/pic-4.png);
+    }
+    .card:hover{
+        transform: translateY(-10px);
+    }
+    .h5{
+        color:#fff;
+        text-shadow: 0 0 5px #999;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>LISTENING TO THE WORLD</h1>
+                <P> BIENVENIDO A RINCON DE INSTRUMENTOS, EN DONDE ENCONTRARAS INFORMACION QUE TAL SEA DE TU AGRADO POR SI QUIERES O BIEN YA SABES TOCAR UNO .</P>
+                <a href="login.php" ><button>Entrar</button></a>
+            </div>
+            <div class="col">
+                <div class="card card1">
+                    <h5>MUSICA</h5>
+                </div>
+
+                <div class="card card2">
+                    <h5>MUSICA</h5>
+                </div>
+
+                <div class="card card3">
+                    <h5>MUSICA</h5>
+                </div>
+
+                <div class="card card4">
+                    <h5>MUSICA</h5>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
